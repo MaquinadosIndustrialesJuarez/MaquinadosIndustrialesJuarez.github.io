@@ -30,6 +30,27 @@
         .bank-details {
             margin-top: 20px;
         }
+        .styled-button {
+        background-color: #006fb5; /* Color de fondo */
+        border: none; /* Sin borde */
+        color: white; /* Texto blanco */
+        padding: 15px 32px; /* Relleno */
+        text-align: center; /* Centrar texto */
+        text-decoration: none; /* Sin subrayado */
+        display: inline-block; /* Mostrar como bloque en línea */
+        font-size: 16px; /* Tamaño de fuente */
+        margin: 4px 2px; /* Márgenes */
+        cursor: pointer; /* Puntero de mano al pasar por encima */
+        border-radius: 12px; /* Bordes redondeados */
+        transition-duration: 0.4s; /* Duración de la transición */
+}
+
+.styled-button:hover {
+    background-color: white; /* Cambio de color de fondo al pasar el ratón por encima */
+    color: #006fb5; /* Cambio de color de texto al pasar el ratón por encima */
+    border: 2px solid #006fb5; /* Borde al pasar el ratón por encima */
+}
+
     </style>
 </head>
 <body>
@@ -53,7 +74,7 @@
         <p><strong>No. de Cuenta:</strong> 10496636983</p>
         <p><strong>Clave Interbancaria:</strong> 137832104966369835</p>
     </div>
-    <button onclick="location.href='MAQUINADOS INDUSTRIALES JUAREZ.html'">Volver a Página Principal</button>
+    <button class="styled-button" onclick="location.href='index.html'">Volver a Página Principal</button>
 </div>
 
 </body>

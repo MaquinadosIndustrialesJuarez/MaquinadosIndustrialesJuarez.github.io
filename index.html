@@ -4,12 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MAQUINADOS INDUSTRIALES JUAREZ</title>
-    <link rel="stylesheet" href="CSS/DISEÑO.css">
+    <STyle>
+     body {
+            background-color: #F0F0F0; 
+            font-family: Arial, sans-serif;
+            color: #000000; 
+        }
+        .container {
+            width: 60%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #FFFFFF; 
+            border: 1px solid #CCCCCC;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #006fb5; 
+            text-align: center;
+        }
+        p {
+            font-size: 18px;
+        }
+        .styled-button {
+    position: fixed;
+    top: 5%;
+    right: 3%;
+    background-color: #006fb5; /* Color de fondo */
+    border: none; /* Sin borde */
+    color: white; /* Texto blanco */
+    padding: 15px 32px; /* Relleno */
+    text-align: center; /* Centrar texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar como bloque en línea */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Puntero de mano al pasar por encima */
+    border-radius: 12px; /* Bordes redondeados */
+    transition-duration: 0.4s; /* Duración de la transición */
+}
+
+.styled-button:hover {
+    background-color: white; /* Cambio de color de fondo al pasar el ratón por encima */
+    color: #006fb5; /* Cambio de color de texto al pasar el ratón por encima */
+    border: 2px solid #006fb5; }
+.centered-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        height: auto;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;  
+    }
+    .centered-div {
+        width: 100%;
+    }
+    .img {
+        display: flex;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 15%;
+        margin-right: 15%;
+        width: 70%;
+        height: 80%;
+    }
+    .VID{
+        display: block;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 15%;
+        margin-right: 15%;
+        width: 70%;
+        height: 80%;
+    }</STyle>
 </head>
 <body>
-    <img class="centered-img" src=".\RECURSOS\LOGO.png" alt="LOGO" >
+
 <div class="container">
-<Div class="centered-div">       <h1>Nuestros Servicios y Ejemplos de Trabajo Realizado</h1>
+    
+<Div class="centered-div">
+    <img class="centered-img" src=".\RECURSOS\LOGO.png" alt="LOGO" >
+           <h1>Nuestros Servicios y Ejemplos de Trabajo Realizado</h1>
 
     <p>En <strong>Maquinados Industriales Juárez</strong>, estamos comprometidos con brindar soluciones personalizadas y de alta precisión en la industria de maquinados. Gracias a nuestra infraestructura  y a nuestro equipo técnico especializado, hemos desarrollado una amplia gama de proyectos que ejemplifican nuestra capacidad para adaptarnos a los desafíos de nuestros clientes.</p>
 
@@ -36,8 +115,7 @@
 
     <p>Estos ejemplos son solo una muestra de las soluciones que podemos brindarle. Si su empresa requiere un servicio específico o desea conocer más sobre nuestras capacidades, estaremos encantados de asesorarle y adaptar nuestros servicios a sus necesidades.</p>
 
-    <p><strong>Maquinados Industriales Juárez</strong><B> SU ALIADO EN CALIDA Y PRECISIÓN.</B></p></Div>
-</div>
+
 <img class="img" src=".\RECURSOS\IMG-20241027-WA0001.JPG" >
 <img class="img" src=".\RECURSOS\IMG-20241027-WA0002.JPG" >
 <img class="img" src=".\RECURSOS\IMG-20241027-WA0003.JPG" >
@@ -67,7 +145,9 @@
     <source src="./RECURSOS/VID-20241027-WA0004.mp4" type="video/mp4">
     Tu navegador no soporta la etiqueta de video.
 </video>
-<button onclick="location.href='CONTACTO.html'">MAS INFORMACION</button>
+<p><strong>Maquinados Industriales Juárez</strong><B> SU ALIADO EN CALIDA Y PRECISIÓN.</B></p></Div>
+</div>
+<button class="styled-button" onclick="location.href='CONTACTO.html'">MAS INFORMACION</button>
 
 
 </body>
